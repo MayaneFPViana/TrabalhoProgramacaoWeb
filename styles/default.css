@@ -1,0 +1,29 @@
+:root {
+    font-size: 16px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+html, body {
+    height: 100%;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* a {
+    font-size: 5rem;
+}
+
+@media pro 1000px {
+    :root {
+        font-size: 5px;
+    }
+} */
