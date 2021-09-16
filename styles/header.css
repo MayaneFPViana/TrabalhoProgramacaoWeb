@@ -1,0 +1,51 @@
+/* 
+#9D6367 vinho
+
+#E3E2DC gelo escuro
+
+#F2F3F7 gelo claro 
+*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    background-color: #9D6367;
+
+}
+
+.titulo {
+    display: flex;
+    text-decoration: none;
+}
+
+.titulo, .titulo h1 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: #F2F3F7;
+}
+
+nav ol {
+    display: flex;
+}
+
+nav ol li a {
+    display: inline-block;
+    padding: 30px;
+    text-decoration: none;
+    color: #F2F3F7;
+    text-transform: uppercase;
+}
+
+nav ol li a.active {
+    background-color: #F2F3F7;
+    color: #8a8a8a;
+}
+
+nav ol li a:hover {
+    background-color: #F2F3F7;
+    color: #8a8a8a;
+}
+
+
