@@ -1,0 +1,21 @@
+
+header .menuHamburguer {
+    display: none;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 30px;
+    height: 30px;
+}
+
+header .menuHamburguer .barra {
+    height: 5px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 860px) {
+    header .menuHamburguer {
+        display: flex;
+
+    }
+}
