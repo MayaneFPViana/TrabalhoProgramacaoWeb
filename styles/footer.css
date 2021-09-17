@@ -1,0 +1,131 @@
+/* 
+#9D6367 vinho
+
+#E3E2DC gelo escuro
+
+#F2F3F7 gelo claro 
+*/
+
+footer {     
+    display: flex;
+    background-color: #9D6367;
+    height: 200px;
+    padding: 30px;
+}
+
+footer .esquerda {
+    display: flex;
+    width: 100%;
+}
+
+footer .informacoes {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    /* padding-bottom: 30px; */
+}
+
+footer .esquerda .mapa .iconesInformacoes,
+footer .esquerda .numero .iconesInformacoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    width: 35px;
+}
+
+footer .esquerda .mapa .iconesInformacoes img, 
+footer .esquerda .numero .iconesInformacoes img {
+    width: 25px;
+}
+
+footer .esquerda .informacoes .mapa .linkInformacoes,
+footer .esquerda .informacoes .numero .linkInformacoes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .esquerda .informacoes .mapa,
+footer .esquerda .informacoes .numero {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+footer .esquerda .informacoes a {
+    color: #272727;
+    text-decoration: none;
+}
+
+footer .esquerda h2 {
+    text-transform: uppercase;
+    color: #272727;
+    margin-bottom: 10px;
+}
+
+footer .esquerda .caixaComentario {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 400px;
+}
+
+footer .esquerda p {
+    font-size: 0.9rem;
+    text-align: left;
+    color: #E3E2DC;
+    margin-bottom: 10px;
+}
+
+footer .esquerda .caixaComentario .caixaOpniao form .labelComentario {
+    color: #272727;
+}
+
+footer .esquerda .caixaComentario .caixaOpniao form #comentario {
+    outline: none;
+    border: none;
+    resize: none;
+    border-radius: 5px;
+    padding: 3px;
+    margin-top: 2px;
+    width: 100%;
+}
+
+footer .esquerda .caixaComentario .caixaOpniao form button {
+    outline: none;
+    border: none;
+    padding: 3px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer .esquerda .caixaComentario .caixaOpniao form .botoes {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer .direita {
+    width: 50%;
+}
+
+footer .direita {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+footer .direita .icones {
+    height: fit-content;
+}
+
+footer .direita .icones a:first-child {
+    margin-right: 10px;
+}
+
+footer .direita .icones img {
+    width: 40px;
+}
+
+

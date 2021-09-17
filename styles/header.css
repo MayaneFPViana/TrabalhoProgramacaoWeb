@@ -20,6 +20,10 @@ header {
     text-decoration: none;
 }
 
+/* .titulo:hover {
+    text-decoration: underline;
+} */
+
 .titulo, .titulo h1 {
     font-size: 1.5rem;
     text-transform: uppercase;
