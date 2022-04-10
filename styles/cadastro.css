@@ -1,0 +1,192 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0;
+    background-color: #E3E2DC;
+}
+
+main .caixaTituloCadastro h2{
+    font-size: 3.0rem;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+main form {
+    width: 800px;
+}
+
+main form .linha1,
+main form .linha2,
+main form .linha3,
+main form .linha4,
+main form .linha5,
+main form .linha6 {
+    margin-bottom: 15px;
+}
+
+
+main form .linha4 .telefoneFormCadastro,
+main form .linha4 .profissaoFormCadastro,
+main form .linha2 .cpfFormCadastro, 
+main form .linha2 .dataNascimentoFormCadastro {
+    margin-right: 10px;
+}
+
+main form .linha1 .nomeFormCadastro, 
+main form .linha2 .cpfFormCadastro, 
+main form .linha2 .dataNascimentoFormCadastro, 
+main form .linha2 .emailFormCadastro,
+main form .linha3,
+main form .linha4 .telefoneFormCadastro,
+main form .linha4 .profissaoFormCadastro,
+main form .linha4 .sexoFormCadastro,
+main form .linha5 .estadoCivilFormCadastro,
+main form .linha6 .observacoesFormCadastro{
+    background-color: #b98286;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+main form input,
+main form textarea,
+main form select {
+    height: 23px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 0 5px;
+}
+
+main form label,
+main form .linha3 .caixaDoEndereco .caixaLogradouro .labelLogradouro,
+main form .linha3 .caixaDoEndereco .caixaNumero .labelNumero,
+main form .linha3 .caixaDoEndereco .caixaComplemento .labelComplemento {
+    padding-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+/* Linha 1 */
+main form .linha1 {
+    width: 100%;  
+}
+
+main form .linha1 .nomeFormCadastro {
+    display: flex;
+    flex-direction: column;
+}
+
+/* linha 2 */
+main form .linha2 {
+    display: flex;
+    width: 100%;
+}
+
+main form .linha2 .cpfFormCadastro,
+main form .linha2 .dataNascimentoFormCadastro {
+    width: 200px;
+    display: flex;
+    flex-direction: column;   
+}
+
+main form .linha2 .emailFormCadastro {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* linha 3 */
+
+
+main form .caixaDoEndereco {
+    width: 100%;
+}
+
+main form .caixaLogradouro,
+main form .caixaNumero,
+main form .caixaComplemento {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+main form .caixaLogradouro #logradouro,
+main form .caixaNumero #numero,
+main form .caixaComplemento #complemento {
+    width: 100%;
+}
+
+/* linha 4 */
+main form .linha4 {
+    width: 100%;
+    display: flex;
+}
+
+main form .linha4 .telefoneFormCadastro {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+main form .linha4 .profissaoFormCadastro{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+main form .linha4 .sexoFormCadastro {
+    display: flex;
+    flex-direction: column;
+}
+
+main form .linha4 .sexoFormCadastro .labelSexo {
+    margin-top: 5px;
+}
+
+main form .linha4 .sexoFormCadastro .selectSexo {
+    padding-top: 5px;   
+    margin-bottom: 5px;
+}
+
+/* linha 5 */
+
+main form .linha5 .estadoCivilFormCadastro .optionsSC {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main form .linha5 .estadoCivilFormCadastro .optionsSC label {
+    margin-right: 10px;
+}
+
+/* linha 6 */
+main form .linha6 .observacoesFormCadastro {
+    display: flex;
+    flex-direction: column;
+}
+
+main form .linha6 .observacoesFormCadastro textarea {
+    resize: none;
+}
+
+/* botões */
+
+main form .botoes {
+    display: flex;
+    justify-content: center;
+}
+
+main form .botoes button {
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 0 5px;
+    background-color: #cac9c0;
+}
+
+main form .botoes button:hover {
+    box-shadow: grey 5px 5px 3px;
+    cursor: pointer;
+}

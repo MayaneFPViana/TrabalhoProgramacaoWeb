@@ -1,4 +1,4 @@
-<!-- By: Mayane -->
+<!--By: Maria Antonia -->
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -6,17 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- Roboto Condensed -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
-    <!-- ESTILOS -->       
+    <!-- estilos -->
     <link rel="stylesheet" href="../styles/default.css">
     <link rel="stylesheet" href="../styles/header.css">
-    <link rel="stylesheet" href="../styles/contato.css">
+    <link rel="stylesheet" href="../styles/noticia.css">
     <link rel="stylesheet" href="../styles/footer.css">
-    <!-- ESTILOS -->
-
-    <title>Contato</title>
+    
+    <title>Notícias</title>
 </head>
 <body>
     <!-- cabeçalho -->
@@ -28,49 +28,51 @@
                 <li><a href="../index.html">home</a></li>
                 <li><a href="./sobreNos.html">sobre nós</a></li>
                 <li><a href="./shop.html">shop</a></li>
-                <li><a class="active">contato</a></li>
+                <li><a href="./contato.html">contato</a></li>
                 <li><a href="./cadastro.html">cadastro</a></li>
-                <li><a href="./noticias.html">notícias</a></li>
+                <li><a class="active">notícias</a></li>
                 <li><a href="./faq.html">faq</a></li>
             </ol>
         </nav>
     </header>
 
-    <!-- corpo da pagina -->
-
     <main>
-        <div class="caixaTituloContato">
-            <h2>Entre em contato conosco!</h2>
+        <div class="titulonoticia">
+            <br><br>
+            NOTÍCIAS
+            <br><br><br>
         </div>
-
-        <form action="../pages/enviadoSucesso.html" method="GET">
-            <div class="emailFormContato">
-                <label for="">Email:</label>
-                <input type="email" name="email" id="email" placeholder="mariajose@email.com" required>
+        <div class="textonot">
+            A seguir, deixamos algumas informações para vocês ficarem por dentro do mundo da moda, pequenos negócios e mais!
+            <br><br><br><br>
             </div>
-
-            <div class="assuntoFormContato">
-                <label for="">Assunto:</label>
-                <textarea name="assunto" id="assunto" cols="20" rows="1" placeholder="Body Julia" required></textarea>
-            </div>
-
-            <div class="perguntaFormContato">
-                <label for="">Envie sua pergunta:</label>
-                <textarea name="pergunta" id="pergunta" cols="20" rows="3" placeholder="Tenho uma pergunta sobre..." required></textarea>
-            </div>
-            
-            <div class="botoes">
-                <button type="submit">Enviar</button>
-                <button type="reset">Limpar</button>
-            </div>
-        </form>
-
+            <div class="noticias">
+            <ul>
+                    <li><img src="../images/newspaper.png" alt=""> PEQUENOS NEGÓCIOS</li>
+                        <br><p>Quando você apoia um pequeno negócio, você está contribuindo para um sonho.</p>
+                        <p>Por trás de uma pequena empresa, há um pequeno empreendedor trabalhando muito para fazer sua loja crescer!</p>
+                        <p><a href="https://www.contabilizei.com.br/contabilidade-online/apoie-os-pequenos-negocios/" target="_blank"><strong>Saiba Mais</strong></a></p><br><br><br>
+                    <li><img src="../images/newspaper.png" alt=""> EMPREENDEDORISMO</li>
+                        <br><p>Trabalhar diariamente e sempre com muito foco e dedicação para alcançar seus objetivos e metas!<br></p>
+                        <p>Não desista de seus sonhos e comece já a correr atrás deles!</p>
+                        <p><a href="https://www.lafscontabilidade.com.br/blog/empreendedorismo-na-pratica/" target="_blank">Saiba mais</a></p><br><br><br>
+                    <li><img src="../images/newspaper.png" alt=""> VERÃO 2022</li>
+                        <br><p>Estamos perto da estação mais quente do ano! :)</p>
+                        <p>Não fique de fora e corra para descobrir quais serão as tendencias deste verão!</p>
+                        <p><a href="https://ndmais.com.br/moda/primavera-verao-2022-5-tendencias-para-acertar-no-look-das-estacoes-mais-quentes-do-ano/" target="_blank">Saiba mais</a></p><br><br><br>
+                    <li><img src="../images/newspaper.png" alt=""> INSPIRAÇÃO DE LOOKS</li>
+                        <br><p>Se inspire nesses modelos para ficar ainda mais linda!</p>
+                        <p><a href="https://www.dicasdemulher.com.br/modelos-de-cropped/" target="_blank">Saiba mais</a></p><br><br><br>
+                    <li><img src="../images/newspaper.png" alt=""> FEMINISMO</li>
+                    <br><p>Somos uma equipe de mulheres focadas em deixar outas mulheres ainda mais lindas com os nossos produtos!</p>
+                    <p>Nos apoiar em um ambiente de trabalho é essencial para o crescimento individual e empresarial.</p>
+                    <p>Apoie e comemore o sucesso de outras mulheres!</p>
+                    <p><a href="https://movimentomulher360.com.br/6-dicas-para-mulheres-apoiarem-umas-as-outras-no-ambiente-de-trabalho/" target="_blank">Saiba mais</a></p><br><br><br>
+                </ul>
         </div>
- 
     </main>
 
     <!-- rodape -->
-
     <footer>
         <div class="esquerda">
             <div class="informacoes">
@@ -102,7 +104,7 @@
 
                     <form action="./enviadoSucesso.html">
                         <div>
-                            <label for="comentario" class="labelComentario">Comentários:</label>
+                            <label for="comentario" class="labelComentario">Comentarios:</label>
                             <textarea id="comentario"></textarea>
                         </div>
                         <div class="botoes">
@@ -111,7 +113,6 @@
                         </div>
                     </form>
                 </div>
-
             </div>
         </div>
 
@@ -127,6 +128,6 @@
 
         </div>
     </footer>
-    
+
 </body>
 </html>

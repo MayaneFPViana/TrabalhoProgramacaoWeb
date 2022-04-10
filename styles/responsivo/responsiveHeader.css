@@ -1,0 +1,13 @@
+@media (max-width: 1020px) {
+    header nav {
+        display: none;
+    }
+
+    header .menuHanburguer {
+        display: flex;
+    }
+
+    header .menuHanburguer input {
+        display: none;
+    }
+}

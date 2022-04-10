@@ -1,4 +1,4 @@
-<!-- By: Mayane -->
+<!--By: Maria Antonia -->
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -6,17 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- Roboto Condensed -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
-    <!-- ESTILOS -->       
+    <!-- estilos -->
     <link rel="stylesheet" href="../styles/default.css">
     <link rel="stylesheet" href="../styles/header.css">
-    <link rel="stylesheet" href="../styles/contato.css">
+    <link rel="stylesheet" href="../styles/produto.css">
     <link rel="stylesheet" href="../styles/footer.css">
-    <!-- ESTILOS -->
-
-    <title>Contato</title>
+    
+    <title>RACHEL PRETO</title>
 </head>
 <body>
     <!-- cabeçalho -->
@@ -27,8 +27,8 @@
             <ol>
                 <li><a href="../index.html">home</a></li>
                 <li><a href="./sobreNos.html">sobre nós</a></li>
-                <li><a href="./shop.html">shop</a></li>
-                <li><a class="active">contato</a></li>
+                <li><a href="../pages/shop.html" class="active">shop</a></li>
+                <li><a href="./contato.html">contato</a></li>
                 <li><a href="./cadastro.html">cadastro</a></li>
                 <li><a href="./noticias.html">notícias</a></li>
                 <li><a href="./faq.html">faq</a></li>
@@ -36,41 +36,67 @@
         </nav>
     </header>
 
-    <!-- corpo da pagina -->
-
     <main>
-        <div class="caixaTituloContato">
-            <h2>Entre em contato conosco!</h2>
+        <div class="ladoEsq">
+            <div class="parte1">
+                <img src="../images/rachelpreto1.jpeg" alt="">
+            </div>
+            <div class="parte2">
+                <img src="../images/rachelpreto2.jpeg" alt="">
+                <img src="../images/rachelpreto3.jpeg" alt="">
+            </div>
+
         </div>
-
-        <form action="../pages/enviadoSucesso.html" method="GET">
-            <div class="emailFormContato">
-                <label for="">Email:</label>
-                <input type="email" name="email" id="email" placeholder="mariajose@email.com" required>
+        <div class="ladoDir">
+            <div class="titulo">
+                CROPPED RACHEL PRETO<br><br>
             </div>
-
-            <div class="assuntoFormContato">
-                <label for="">Assunto:</label>
-                <textarea name="assunto" id="assunto" cols="20" rows="1" placeholder="Body Julia" required></textarea>
+            <div class="texto">
+                R$ 58,00<br><br><br>
             </div>
-
-            <div class="perguntaFormContato">
-                <label for="">Envie sua pergunta:</label>
-                <textarea name="pergunta" id="pergunta" cols="20" rows="3" placeholder="Tenho uma pergunta sobre..." required></textarea>
+            <form action="../pages/carrinho.html" method="GET">
+            <div class="tamanhos">
+                <ul class="tam">
+                    <li class="tam-1 P">
+                      <input name="tam" type="radio" id="P" value="P" required>
+                      <label for="P">P</label>
+                    </li>
+                  
+                    <li class="tam-1 M">
+                      <input name="tam" type="radio" id="M" value="M">
+                      <label for="M">M</label>
+                    </li>
+                  
+                    <li class="tam-1 G">
+                      <input name="tam" type="radio" id="G" value="G">
+                      <label for="G">G</label>
+                    </li>
+                  </ul>
+            </div><br><br><br>
+            <div class="qntd">
+                Quantidade
+                <select name="qntd">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+            </div><br><br><br>
+            <div class="bot">
+                <button type="submit">Adicionar ao Carrinho</button>
+            </div>
+            </form>
+            <br><br>
+            <div class="pag">
+                <a href="../pages/faq.html">Confira os meios de pagamento</a>
             </div>
             
-            <div class="botoes">
-                <button type="submit">Enviar</button>
-                <button type="reset">Limpar</button>
-            </div>
-        </form>
-
         </div>
- 
+
     </main>
 
     <!-- rodape -->
-
     <footer>
         <div class="esquerda">
             <div class="informacoes">

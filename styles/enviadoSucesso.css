@@ -1,0 +1,23 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    padding: 40px 0; 
+    height: 100%;
+}
+
+main h3 {
+    font-size: 4.0rem;
+    color: #000000;
+    margin: 50px 0;
+}
+
+main a{
+    font-size: x-large;
+    color: #9D6367;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

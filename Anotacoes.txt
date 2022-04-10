@@ -1,0 +1,87 @@
+<!-- 
+    Home: ??
+    shop: peças
+    sobre nós: historia sobre a loja
+    contato: ??
+    faq: perguntas frequentes
+ -->
+
+ HOME {
+    -carrossel:
+        logo;
+        entrega;
+        "confira nosso catalogo"
+    -cuidados com a peça
+    -basy girls
+ }
+
+ SHOP(em andamento) {
+    -exposição das peças
+        cropped duda preto 
+        cropped duda branco
+        cropped gio preto
+        cropped gio azul claro
+        cropped rachel preto 
+        cropped rachel branco
+        body julia branco
+        pantalona liz preto 
+        pantalona liz vinho 
+ }
+
+ SOBRE NÓS(ja foi) {
+    -confecção propria
+    -sustentabilidade
+    -A loja basy foi inaugurada no dia 1 de novembro de 2020
+ }
+
+ CONTATO(ja foi) {
+    - link whatsapp
+    - instagram 
+    - formulario {
+        email
+        assunto
+        corpo da mensagem: envie sua pergunta com dois botões ENVIAR e LIMPAR
+    }
+
+    -   é a seção “Fale Conosco”, onde haverá um formulário com os campos
+        e-mail do remetente, assunto, corpo da mensagem. Haverá dois botões, um para ENVIAR a
+        mensagem e outro para LIMPAR os campos. No caso do botão enviar, deverá ser enviado ao mesmo
+        email anteriormente citado.
+ }
+
+CADASTRO {
+    formulário {
+         -  Nome, Endereço Completo (Rua, Cidade, Estado, CEP), Telefone Residencial,
+            Profissão, Data de nascimento, CPF (campos de texto normal) e Email.
+         -  Estado Civil (campo de “Seleção”)
+         -  Sexo (campo “Radio”)
+         -  Observações (campo estilo TextArea)
+    }
+
+    O formulário deverá submeter as informações através do método Post e serem enviadas para o e
+    mail do administrador do site.
+}
+
+ÚLTIMAS TENDENCIAS {
+    - Ultimas 5 tendencias relacionadas a moda {
+        como um resumo e no final de cada noticia terá o link para a noticia principal abrindo uma janela externa 
+    }
+    - 
+}
+
+ FAQ (ja foi) {
+
+    -frete {
+        -shope
+    }
+    -Como saber o basy ideal   
+    -guia de tamanhos
+    -formas de pagamento
+    -trocas
+} 
+
+Uma página deverá descrever o Projeto do Site: objetivos, público alvo, tecnologias utilizadas,
+restrições e requisitos mínimos para usuários, dificuldades encontradas, pontos fortes e fracos,
+periodicidade de atualização e indicar como foi aplicado o Bootstrap em seu projeto, segundo as
+regras a seguir.
+     

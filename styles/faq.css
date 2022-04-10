@@ -1,0 +1,60 @@
+main {
+    height: auto;
+    background-color: #E3E2DC;
+}
+
+main .titulofaq {
+    font-size: 4.0rem;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+main .texto1 {
+    font-size: x-large;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+main .perguntas {
+    height: fit-content;
+}
+
+main .perguntas ul p {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+main .perguntas ul li {
+    font-size: 2.5rem;
+    text-align: center;
+
+}
+
+main .perguntas img {
+    width: 50px;
+}
+
+main .perguntas ul table {
+    text-align: center;
+}
+
+main .perguntas ul .tabela {
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+main .perguntas a{
+    color: #9D6367;
+}
+
+
+

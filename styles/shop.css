@@ -1,0 +1,84 @@
+main{
+    height: auto;
+}
+
+main .tituloshop {
+    font-size: 4.0rem;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+main .textoshop {
+    font-size: x-large;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+main .produtos{
+    border-top: none;
+    padding-top: 0;
+    display: flex;
+}
+
+main .item{
+   flex: 1; /*distribui as 3 divs dentro do conteiner com larguras iguais*/
+   margin: 5px; /*coloca uma margem entre elas*/
+   text-align: center;
+   padding-bottom: 30px;
+
+}
+
+main .item img{
+   height: 350px;
+   width: 250px;
+   border-radius: 10px;
+}
+
+main .produtos1{
+    border-top: none;
+    padding-top: 0;
+    display: flex;
+}
+
+main .produtos2{
+    border-top: none;
+    padding-top: 0;
+    display: flex;
+}
+
+main .produtos .item:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+
+}
+
+main .produtos1 .item:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+
+}
+
+main .produtos2 .item:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+main a{
+    text-decoration: none;
+    color: black;
+}

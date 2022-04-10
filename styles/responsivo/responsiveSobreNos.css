@@ -1,0 +1,35 @@
+
+@media (max-width: 740px) {
+    main .caixaHistoria {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main .caixaHistoria .textoHistoria {
+        padding-top: 10px;
+    }
+
+    main .caixaHistoria .textoHistoria p {
+        margin-left: 0
+    }
+
+    main .caixaSobreALoja {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main .caixaSobreALoja .sustentabilidade {
+        margin-bottom: 15px;
+    }
+
+}
+/* 
+@media (max-width: 600px) {
+    
+}
+
+@media (max-width: 320px) {
+    
+} */

@@ -1,0 +1,224 @@
+<!-- Mayane -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Roboto Condensed -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- estilos -->
+    <link rel="stylesheet" href="../styles/default.css">
+    <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="../styles/cadastro.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+    
+    <title>Cadastro</title>
+</head>
+<body>
+    <!-- cabeçalho -->
+    <header>
+        <a href="https://www.instagram.com/lojabasy/" target="_blank" class="titulo">@<h1>lojabasy</h1></a>
+
+        <nav>
+            <ol>
+                <li><a href="../index.html">home</a></li>
+                <li><a href="./sobreNos.html">sobre nós</a></li>
+                <li><a href="./shop.html">shop</a></li>
+                <li><a href="./contato.html">contato</a></li>
+                <li><a class="active">cadastro</a></li>
+                <li><a href="./noticias.html">notícias</a></li>
+                <li><a href="./faq.html">faq</a></li>
+            </ol>
+        </nav>
+    </header>
+
+    <main>
+       <div class="caixaTituloCadastro">
+            <h2>Faça seu cadastro</h2>
+       </div>
+
+       <form action="mayane26@gmail.com" method="POST">
+            <div class="linha1">
+                <div class="nomeFormCadastro">
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome" placeholder="Maria José de Oliveira" required>
+                </div>
+    
+            </div>
+
+            <div class="linha2">
+                <div class="cpfFormCadastro">
+                    <label for="cpf">CPF:</label>
+                    <input type="text" name="cpf" id="cpf" placeholder="000.000.000-00" required>
+                </div>
+    
+                <div class="dataNascimentoFormCadastro">
+                    <label for="dataNascimento">Data de nascimento:</label>
+                    <input type="date" name="dataNascimento" id="dataNascimento" required>
+                </div>
+
+                <div class="emailFormCadastro">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="mariajose@email.com" required>
+                </div>
+            </div>
+
+            <div class="linha3">
+                <div class="endereco">
+                    <p>Endereço</p>
+                </div>
+                
+                <div class="caixaDoEndereco">
+                    <div class="caixaLogradouro">
+                        <div class="labelLogradouro">
+                            <label for="logradouro" name="logradouro">Logradouro:</label>
+                        </div>
+                        <div class="inputLogradouro">
+                            <input type="text" name="logradouro" id="logradouro"> 
+                        </div>
+                    </div>
+                    <div class="caixaNumero">
+                        <div class="labelNumero">
+                            <label for="numero" name="numero">Número:</label> 
+                        </div>
+                        <div class="inputNumero">
+                            <input type="text" name="numero" id="numero">
+                        </div>
+                    </div>
+                    <div class="caixaComplemento">
+                        <div class="labelComplemento">
+                            <label for="complemento" name="complemento">Complemento:</label>
+                        </div>
+                        <div class="inputComplemento">
+                            <input type="text" name="complemento" id="complemento">
+                        </div>
+                    </div>
+                </div>               
+            </div>
+
+            <div class="linha4">
+                <div class="telefoneFormCadastro">
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" name="telefone" id="telefone" placeholder="(27)99884-3742" pattern="[0-9]{2}[0-9]{5}-[0-9]{4}" required>
+                </div>
+
+                <div class="profissaoFormCadastro">
+                    <label for="profissao">Profissão:</label>
+                    <input type="text" name="profissao" id="profissao" placeholder="Administrador" required>
+                </div>
+
+                <div class="sexoFormCadastro">
+                    <div class="labelSexo">
+                        <label for="sexo">Sexo:</label>
+                    </div>
+                    <div class="selectSexo">
+                        <select name="sexo" id="sexo" required>
+                            <option value="masculino">Masculino</option>
+                            <option value="feminino">Feminino</option>
+                            <option value="naoInformar">Não Informar</option>
+                        </select>    
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="linha5">
+                
+                <div class="estadoCivilFormCadastro">
+                    <p> Situação Civil:</p>
+                        
+                        <div class="optionsSC">
+                            <div class="boxSolteiro">
+                                <input type="radio" name="estadoCivil" id="ecSolteiro">
+                                <label for="ecSolteiro">Solteiro(a)</label>
+                            </div>
+                            <div class="boxCasado">
+                                <input type="radio" name="estadoCivil" id="ecCasado">
+                                <label for="ecCasado">Casado(a)</label>
+                            </div>
+                            <div class="bosViuvo">
+                                <input type="radio" name="estadoCivil" id="ecViuvo">
+                                <label for="ecViuvo">Viúvo(a)</label>
+                            </div>
+                        </div>
+                </div>
+                
+            </div>
+
+            <div class="linha6">
+                <div class="observacoesFormCadastro">
+                    <label for="observacoes">Deixe alguma observação:</label>
+                    <textarea name="observacoes" id="observacoes" cols="30" rows="3" required></textarea>
+                </div>
+            </div>
+
+            <div class="botoes">
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpar</button>
+            </div>
+       </form>
+    </main>
+
+    <!-- rodape -->
+    <footer>
+        <div class="esquerda">
+            <div class="informacoes">
+                <h2>informações</h2>
+                <div>
+                    <div class="mapa">
+                        <div class="iconesInformacoes">
+                            <img src="../images/localizacao.svg" alt="">
+                        </div>
+                        <div class="linkInformacoes">
+                            <a href="https://www.google.com/maps/place/Itaperuna,+RJ,+28300-000/@-21.2091277,-41.9272283,13z/data=!3m1!4b1!4m5!3m4!1s0xbc606f20d4e52d:0x3836f9ce8f8f6baa!8m2!3d-21.2037367!4d-41.8912637" target="_blank">ITAPERUNA - RJ - BR</a> 
+                        </div>
+                    </div>
+                    <div class="numero">
+                        <div class="iconesInformacoes">
+                            <img src="../images/telefone.svg" alt="">
+                        </div>
+                        <div class="linkInformacoes">
+                            <a href="https://api.whatsapp.com/send?phone=5522988081550&text=&source=&data=" target="_blank">+55 22 98808-1550</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="caixaComentario">
+                <h2>deixe seu comentário sobre nossos produtos</h2>
+                <div class="caixaOpniao">
+                    <p>Sua opinião é muito importante para nós!</p>
+
+                    <form action="./enviadoSucesso.html">
+                        <div>
+                            <label for="comentario" class="labelComentario">Comentarios:</label>
+                            <textarea id="comentario"></textarea>
+                        </div>
+                        <div class="botoes">
+                            <button type="submit">Enviar</button>
+                            <button type="reset">Limpar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="direita">
+            <div class="icones">
+                <a href="https://www.instagram.com/lojabasy/" target="_blank">
+                    <img src="../images/Instagram.svg" alt="instagram">
+                </a>
+                <a href="https://api.whatsapp.com/send?phone=5522988081550&text=&source=&data=" target="_blank">
+                    <img src="../images/whatsapp.svg" alt="whatsapp">
+                </a>
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+</html>

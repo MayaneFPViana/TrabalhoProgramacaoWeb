@@ -17,6 +17,10 @@ html, body {
     margin: 0 auto; */
 }
 
+main {
+    background-color: #E3E2DC;
+}
+
 li {
     list-style-type: none;
 }

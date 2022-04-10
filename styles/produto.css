@@ -1,0 +1,174 @@
+
+main {
+    display: flex;
+}
+
+main .ladoEsq {
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    padding: 30px 0;
+    
+}
+
+main .ladoEsq .parte1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+main .ladoEsq .parte2{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main .ladoEsq .parte1 img{
+    height: 300px;
+   width: 200px;
+   border-radius: 10px;
+   align-items: center;
+   padding: 5px;
+}
+
+main .ladoEsq .parte2 img{
+    height: 300px;
+   width: 200px;
+   border-radius: 10px;
+   padding: 5px;
+}
+
+main .ladoEsq .parte1 img:hover {
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.3);
+    -o-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+ 
+}
+main .ladoEsq .parte2 img:hover {
+    -webkit-transform: scale(1.5);
+     -moz-transform: scale(1.3);
+    -o-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);  
+}
+
+main .ladoDir {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0;
+}
+
+main .ladoDir .titulo {
+    font-size: 3.0rem;
+    color: black;
+} 
+
+main .ladoDir .texto {
+    font-size: 2.0rem;
+    color: #9D6367;
+}
+
+
+/* CSS que define cada uma das caixas e sua aparencia */
+
+
+main .ladoDir .tamanhos .tam {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+  
+main .ladoDir .tamanhos .tam:after {
+    content: "";
+    clear: both;
+}
+  
+main .ladoDir .tamanhos .tam .tam-1 {
+    border: 3px solid #ccc;
+    box-sizing: border-box;
+    float: left;
+    height: 50px;
+    position: relative;
+    width: 50px;
+}
+  
+/* Adcionando cor de fundo e estlizando para o texto ficar por cima do radio button */
+
+main .ladoDir .tamanhos .tam .tam-1 label {
+    background: #E3E2DC no-repeat center center;
+    bottom: 1px;
+    cursor: pointer;
+    display: block;
+    font-size: 2.0rem;
+    left: 1px;
+    position: absolute;
+    right: 1px;
+    text-indent: 20%;
+    top: 1px; 
+    white-space: nowrap;
+}
+  
+.tam-1 + .tam-1 {
+    margin-left: 25px;
+}
+  
+/* Destacando o elemento ao ser focado */ 
+
+main .ladoDir .tamanhos .tam input:focus + label {
+    outline: 2px dotted #9D6367;
+}
+ 
+/* Fazendo o elemento selecionado ser marcado */
+
+main .ladoDir .tamanhos .tam input:checked + label {
+    outline: 4px solid #9D6367;
+}
+  
+
+/* Aparencia quadrada somente no firefox */
+
+@-moz-document url-prefix() {
+    main .ladoDir .tamanhos .tam input:checked + label:after {
+      bottom: 0;
+      right: 0;
+      background-color: #9D6367;
+    }
+}
+
+main .ladoDir .qntd {
+    font-size: 2.0rem;
+    color: #9D6367;
+}
+
+main .ladoDir .qntd select {
+    background: transparent;
+    font-size: 1.5rem;
+}
+
+main .ladoDir .bot button {
+    width: 220px;
+    height: 70px;
+    background-color: #9D6367;
+    color: #E3E2DC;
+    font-size: 1.7rem;
+
+}
+
+main .ladoDir .bot button:hover {
+    color: #9D6367;
+    background-color: #E3E2DC; 
+}
+
+main .ladoDir .pag a{
+    color: #9D6367;
+}
+
+
+
+
+
+

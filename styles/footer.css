@@ -54,13 +54,13 @@ footer .esquerda .informacoes .numero {
 }
 
 footer .esquerda .informacoes a {
-    color: #272727;
+    color: #000000;
     text-decoration: none;
 }
 
 footer .esquerda h2 {
     text-transform: uppercase;
-    color: #272727;
+    color: #000000;
     margin-bottom: 10px;
 }
 
@@ -79,7 +79,7 @@ footer .esquerda p {
 }
 
 footer .esquerda .caixaComentario .caixaOpniao form .labelComentario {
-    color: #272727;
+    color: #000000;
 }
 
 footer .esquerda .caixaComentario .caixaOpniao form #comentario {
@@ -128,4 +128,7 @@ footer .direita .icones img {
     width: 40px;
 }
 
-
+footer .direita .icones a:last-child {
+    text-decoration: none;
+    color: black;
+}

@@ -7,11 +7,31 @@
 */
 
 header {
+    min-height: 79px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 50px;
     background-color: #9D6367;
+}
+
+header button {
+    outline: none;
+    border: none;
+    background-color: #9D6367;
+}
+
+header .menuHanburguer {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 25px;
+}
+
+header .menuHanburguer .linha {
+    height: 5px;
+    background-color: #E3E2DC;
 }
 
 .titulo {
@@ -26,7 +46,7 @@ header {
 .titulo, .titulo h1 {
     font-size: 1.5rem;
     text-transform: uppercase;
-    color: #F2F3F7;
+    color: #E3E2DC;
 }
 
 nav ol {
@@ -37,17 +57,18 @@ nav ol li a {
     display: inline-block;
     padding: 30px;
     text-decoration: none;
-    color: #F2F3F7;
+    color: #E3E2DC;
     text-transform: uppercase;
 }
 
 nav ol li a.active {
-    background-color: #F2F3F7;
+    background-color: #E3E2DC;
     color: #8a8a8a;
+    cursor: default;
 }
 
 nav ol li a:hover {
-    background-color: #F2F3F7;
+    background-color: #E3E2DC;
     color: #8a8a8a;
 }
 

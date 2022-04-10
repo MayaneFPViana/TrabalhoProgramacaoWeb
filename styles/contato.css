@@ -1,0 +1,68 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E3E2DC;
+    padding: 30px 0;
+}
+
+main .caixaTituloContato h2 {
+    font-size: 3.0rem;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+main form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid #000000; */
+    /* padding: 10px; */
+    width: 500px;
+}
+
+main form .emailFormContato,
+main form .assuntoFormContato,
+main form .perguntaFormContato {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid #000000; */
+    margin: 15px;
+    padding: 5px;
+    background-color: #b98286;
+    width: 100%;
+    border-radius: 5px;
+}
+
+main form .emailFormContato input,
+main form .assuntoFormContato textarea,
+main form .perguntaFormContato textarea {
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+main form .assuntoFormContato textarea,
+main form .perguntaFormContato textarea {
+    resize: none;
+}
+
+main form .emailFormContato label,
+main form .assuntoFormContato label,
+main form .perguntaFormContato label {
+    margin-bottom: 5px;
+}
+
+main form .botoes button {
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 0 5px;
+    background-color: #cac9c0;
+}
+
+main form .botoes button:hover {
+    box-shadow: grey 5px 5px 3px;
+    cursor: pointer;
+}

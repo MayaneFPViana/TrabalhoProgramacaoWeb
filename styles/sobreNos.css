@@ -1,0 +1,120 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    background-color: #E3E2DC;
+}
+
+main .titulo {
+    width: 90%;
+    border-bottom: 1px solid #000000;
+}
+
+main .titulo h2 {
+    font-size: 2.0rem;
+    color: #000000;
+    text-align: center;
+    width: 100%;
+    margin: 30px;
+}
+
+main .caixaHistoria {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    width: 90%;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #000000;
+}
+
+main .caixaHistoria .imagemHistoria img {
+    width: 300px;
+    height: 400px;
+}
+
+main .caixaHistoria .textoHistoria {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+main .caixaHistoria .textoHistoria p {
+    text-align: justify;
+    margin-bottom: 5px;
+    margin-left: 20px;
+}
+
+main .caixaSobreALoja {
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    width: 100%;
+    padding: 30px;
+}
+
+main .caixaSobreALoja .sustentabilidade .tituloSustentabilidade,
+main .caixaSobreALoja .confeccaoPropria .tituloConfeccaoPropria {
+    display: flex;
+    justify-items:center;
+}
+
+main .caixaSobreALoja .sustentabilidade .tituloSustentabilidade img, 
+main .caixaSobreALoja .confeccaoPropria .tituloConfeccaoPropria img {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+}
+
+main .caixaSobreALoja .sustentabilidade .tituloSustentabilidade h3, 
+main .caixaSobreALoja .confeccaoPropria .tituloConfeccaoPropria h3 {
+    width: 100%;
+    text-align: center;
+}
+
+main .caixaSobreALoja .sustentabilidade,
+main .caixaSobreALoja .confeccaoPropria {
+    width: 300px;
+}
+
+main .caixaSobreALoja .sustentabilidade .tituloSustentabilidade,
+main .caixaSobreALoja .confeccaoPropria .tituloConfeccaoPropria{
+    margin-bottom: 10px;
+}
+
+
+/* main .caixaSobreALoja                
+.sustentabilidade {
+    
+} */
+
+
+main .caixaSobreALoja                
+.sustentabilidade h3 {
+    font-size: 1.5rem;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+main .caixaSobreALoja                
+.sustentabilidade p {
+    text-align: justify;
+    margin-bottom: 5px;
+}
+
+main .caixaSobreALoja 
+.confeccaoPropria h3 {
+    font-size: 1.5rem;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+main .caixaSobreALoja 
+.confeccaoPropria p {
+    text-align: justify;
+    margin-bottom: 5px;
+}
+    
